@@ -1,13 +1,15 @@
 # Algorithms
 
-*If you would like to contribute to this repo, please contact me.*
+_If you would like to contribute to this repo, please contact me._
 
 This is a continuously updating list of some of the most essential algorithms implemented in pseudocode, C++14, Python 3.6 and Java. You can find a comprehensive explanation of some of the algorithms present in this repo here: <br>
-* https://dev.to/iuliagroza/complete-introduction-to-the-30-most-essential-data-structures-algorithms-43kd
-* https://medium.com/marketing-and-entrepreneurship/complete-introduction-to-the-30-most-essential-data-structures-algorithms-5f8090773d21
-* https://twitter.com/gg_iulia
+
+- https://dev.to/iuliagroza/complete-introduction-to-the-30-most-essential-data-structures-algorithms-43kd
+- https://medium.com/marketing-and-entrepreneurship/complete-introduction-to-the-30-most-essential-data-structures-algorithms-5f8090773d21
+- https://twitter.com/gg_iulia
 
 ### Contents
+
 1. Divide and conquer
 2. Bubble Sort
 3. Insertion Sort
@@ -30,10 +32,10 @@ This is a continuously updating list of some of the most essential algorithms im
 20. Breadth-First Search (BFS)
 21. Depth-First Search (DFS)
 22. Floyd-Warshall / Roy-Floyd
-23. Dijkstra 
-24. Bellman-Ford 
-25. Kruskal 
-26. Topological Sorting 
+23. Dijkstra
+24. Bellman-Ford
+25. Kruskal
+26. Topological Sorting
 
 Pseudocode Implementation: 1-7, 9-25 - @iuliagroza / 8 - @notreallystatic <br>
 C++ Implementation: 1-7, 9-25 - @iuliagroza / 8 - @notreallystatic <br>
@@ -41,3 +43,17 @@ Python Implementation: 1-2, 4-22 - @iuliagroza / 3, 23-26 - @MahmoudFettal <br>
 Java Implementation: 3, 5 - @Abbeyme1 <br>
 
 ##### © Iulia Groza
+
+## Running Go implementations
+
+### Refactoring requirements for Go
+
+- dir names must not include spaces
+- a go.mod file must exist
+- a main method must exist
+
+### Testing
+
+To test the Go implementations of the algorithms, navigate to the algorithm directory and run `go test binary_search.go binary_search_test.go -v`. You would change the file name depending on the algorithm being implemented.
+\
+If you would like to use the main method to test the algorithms instead of the given unit tests, use the main.go file and import the necessary package (named after the algorithm). E.g. `import "Algortihms/binarysearch"`
